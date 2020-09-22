@@ -1,0 +1,12 @@
+# mysql
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/a_sqdb?serverTimezone=Asia/Shanghai
+    username: a_squsr
+    password: 278mSq
+mybatis:
+  mapper-locations: classpath:mapper/*Mapping.xml
+  type-aliases-package: com.xyzdock.sportplay.dao
+server:
+  port: 8081
